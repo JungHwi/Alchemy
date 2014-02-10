@@ -1,0 +1,832 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.1.0.0",
+      "version": 1.1,
+      "name": "dogcat",
+      "bone_data": [
+        {
+          "name": "cathead",
+          "parent": "",
+          "x": 35.589637756347656,
+          "y": -17.405921936035156,
+          "z": 6,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": -4.76837158203125E-07,
+          "arrow_y": 1.1871934475493617E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "dogcat.psd_Psd.Dir/cat.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "catface",
+          "parent": "cathead",
+          "x": 1.1111106872558594,
+          "y": -18.888893127441406,
+          "z": 7,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -0.0470857061,
+          "kY": 0.0470857061,
+          "arrow_x": -7.3611736297607422E-06,
+          "arrow_y": -2.4331802706001326E-07,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "dogcat.psd_Psd.Dir/catface.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "doghead",
+          "parent": "",
+          "x": -26.077051162719727,
+          "y": -31.294816970825195,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 4.1127204895019531E-06,
+          "arrow_y": -4.7732710299897008E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "dogcat.psd_Psd.Dir/dog.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.277773857,
+                  "y": -0.277776718,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dogface",
+          "parent": "doghead",
+          "x": -5.2777767181396484,
+          "y": -16.9444522857666,
+          "z": 5,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 3.6060810089111328E-06,
+          "arrow_y": 3.7435688682307955E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "dogcat.psd_Psd.Dir/dogface.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "",
+          "x": -0.11111056804656982,
+          "y": -23.635543823242188,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.618464,
+          "kY": 1.618464,
+          "arrow_x": 118.00420379638672,
+          "arrow_y": 1.5810276181582594E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "dogcat.psd_Psd.Dir/body.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 26.01601,
+                  "y": -1.77959585,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.57373273,
+                  "kY": -1.57373273
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tail",
+          "parent": "body",
+          "x": 53.502948760986328,
+          "y": -5.8031039237976074,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.038122654,
+          "kY": -0.038122654,
+          "arrow_x": 58.247295379638672,
+          "arrow_y": -4.0632889977132436E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "dogcat.psd_Psd.Dir/tail1.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 22.5273457,
+                  "y": -0.06185031,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.52963209,
+                  "kY": -1.52963209
+                }
+              ]
+            },
+            {
+              "name": "dogcat.psd_Psd.Dir/tail2.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 22.5273457,
+                  "y": -0.06185031,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.52963209,
+                  "kY": -1.52963209
+                }
+              ]
+            },
+            {
+              "name": "dogcat.psd_Psd.Dir/tail3.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 22.5273457,
+                  "y": -0.06185031,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.52963209,
+                  "kY": -1.52963209
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg",
+          "parent": "",
+          "x": 5.0340743064880371,
+          "y": -61.017055511474609,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": -7.6591968536376953E-06,
+          "arrow_y": 7.6476735557662323E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "dogcat.psd_Psd.Dir/leg1.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            },
+            {
+              "name": "dogcat.psd_Psd.Dir/leg2.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            },
+            {
+              "name": "dogcat.psd_Psd.Dir/leg3.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            },
+            {
+              "name": "dogcat.psd_Psd.Dir/leg4.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "dogcat",
+      "mov_data": [
+        {
+          "name": "walk",
+          "dr": 31,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "catface",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "cathead",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": -6.4000015258789062,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 255,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  }
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "dogface",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "doghead",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": -3.1250114440917969,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": -0.84999847412109375,
+                  "y": 0.55000877380371094,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 255,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  }
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": -3.1250114440917969,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "body",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06026681,
+                  "kY": 0.06026681,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.109456554,
+                  "kY": -0.109456554,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06026681,
+                  "kY": 0.06026681,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "tail",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leg",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 255,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  }
+                },
+                {
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 255,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  }
+                },
+                {
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 21,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 255,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  }
+                },
+                {
+                  "dI": 3,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "color": {
+                    "a": 255,
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "dogcat.psd_Psd.Dir/몸통",
+      "width": 58.0,
+      "height": 60.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/꼬리1",
+      "width": 30.0,
+      "height": 66.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/Layer 2",
+      "width": 22.0,
+      "height": 67.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/Layer 1",
+      "width": 23.0,
+      "height": 63.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/멍",
+      "width": 76.0,
+      "height": 99.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/냥",
+      "width": 79.0,
+      "height": 86.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/멍얼굴",
+      "width": 40.0,
+      "height": 54.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/냥얼굴",
+      "width": 41.0,
+      "height": 40.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/다리1",
+      "width": 66.0,
+      "height": 70.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/다리2",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/다리3",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/다리3 copy",
+      "width": 65.0,
+      "height": 60.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/catface",
+      "width": 41.0,
+      "height": 40.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/cat",
+      "width": 79.0,
+      "height": 86.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/dogface",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/dog",
+      "width": 76.0,
+      "height": 99.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/body",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/tail1",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/tail2",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/tail3",
+      "width": 23.0,
+      "height": 63.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/leg1",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/leg2",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/leg3",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "dogcat.psd_Psd.Dir/leg4",
+      "width": 0.0,
+      "height": 0.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "dogcat0.plist"
+  ]
+}

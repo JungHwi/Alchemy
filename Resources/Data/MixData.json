@@ -1,0 +1,13 @@
+{"MixData":[
+{"material1" : "Fire", "material2" : "Fire", "result" : "Flame"},
+{"material1" : "Fire", "material2" : "Water", "result" : "Mist"},
+{"material1" : "Fire", "material2" : "Wind", "result" : "Steam"},
+{"material1" : "Fire", "material2" : "Earth", "result" : "Glass"},
+{"material1" : "Water", "material2" : "Earth", "result" : "Mud"},
+{"material1" : "Water", "material2" : "Wind", "result" : "Ice"},
+{"material1" : "Water", "material2" : "Water", "result" : "PlainWater"},
+{"material1" : "Wind", "material2" : "Earth", "result" : "Sand"},
+{"material1" : "Wind", "material2" : "Wind", "result" : "Tornado"},
+{"material1" : "Earth", "material2" : "Earth", "result" : "Rock"}
+]
+}
